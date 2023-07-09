@@ -1,8 +1,9 @@
 {
   "expo": {
     "name": "aleatorio-dev",
-    "slug": "aleatorio-dev",
-    "version": "1.0.0",
+    "description": "Um aplicativo com várias opções de contéudo aleatórios pra geral",
+    "slug": "aleatorio-dev", 
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,14 +19,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.lucasjndev.aleatoriodev",
+      "buildNumber": "1.0.2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.lucasjndev.aleatoriodev"
+      "package": "com.lucasjndev.aleatoriodev",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,6 +39,10 @@
         "projectId": "c06f2c1a-2b38-4d9a-8e63-6bdaae78cb9a"
       }
     },
+    "runtimeVersion": {
+      "policy": "nativeVersion"
+    },
+    "sdkVersion": "49.0.0",
     "owner": "lucasjndev"
   }
 }

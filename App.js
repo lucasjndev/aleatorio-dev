@@ -40,7 +40,7 @@ export default function App() {
         </View>  
       </View> 
       <View style={{ flexDirection:"column",alignItems: 'center', justifyContent: 'center',   margin:3,width:"auto" }}>
-      <View  style={{  flexDirection:"row", backgroundColor:"lightgrey",padding:5, borderRadius:10 ,marginBottom:20}} > 
+      <View  style={{   flexDirection:"row", backgroundColor:"lightgrey",padding:5, borderRadius:10 ,margin:10,marginBottom:20}} > 
         <View style={{alignSelf:"center",marginHorizontal:10}}>
           <TouchableOpacity onPress={  ()=> copyToClipboard } >     
               <Ionicons  name="copy" size={20} color="grey" />
@@ -69,6 +69,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    padding:5,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center' 
